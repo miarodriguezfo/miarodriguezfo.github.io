@@ -14,7 +14,7 @@
 
 
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="juego.js?1462506924399"></script>
+<script src="juego.js?1463176563791"></script>
 <script>
 var canvas, stage, exportRoot;
 function init() {
@@ -27,7 +27,7 @@ function init() {
 	var loader = new createjs.LoadQueue(false);
 	loader.addEventListener("fileload", handleFileLoad);
 	loader.addEventListener("complete", handleComplete);
-	loader.loadFile({src:"images/juego_atlas_.json?1462506924400", type:"spritesheet", id:"juego_atlas_"}, true);
+	loader.loadFile({src:"images/juego_atlas_.json?1463176563791", type:"spritesheet", id:"juego_atlas_"}, true);
 	loader.loadManifest(lib.properties.manifest);
 }
 
@@ -55,6 +55,6 @@ function handleComplete(evt) {
 
 </head>
 <body onload="init();" style="background-color:#D4D4D4;margin:0px;">
-	<canvas id="canvas" width="800" height="482" style="background-color:#6699FF"></canvas>
+	<canvas id="canvas" width="850" height="478" style="background-color:#FFFFFF"></canvas>
 </body>
 </html>
