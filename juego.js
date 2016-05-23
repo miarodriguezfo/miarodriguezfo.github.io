@@ -8,7 +8,9 @@ lib.properties = {
 	height: 478,
 	fps: 24,
 	color: "#FFFFFF",
-	manifest: []
+	manifest: [
+		{src:"sounds/sonido.mp3?1464046945849", id:"sonido"}
+	]
 };
 
 
@@ -31,256 +33,332 @@ lib.properties = {
 
 
 
-(lib.arrow = function() {
+(lib.Arda = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.balon = function() {
+(lib.arrow = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.barra1 = function() {
+(lib.balon = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.barra2 = function() {
+(lib.barra1 = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.caja = function() {
+(lib.barra2 = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Comenzar = function() {
+(lib.caja = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CristianoRonaldo = function() {
+(lib.Comenzar = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.flecha = function() {
+(lib.Continuar = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.FondoInicial = function() {
+(lib.CristianoRonaldo = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Fontmap = function() {
+(lib.fallo = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.francemap = function() {
+(lib.falloM = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.GOOOL = function() {
+(lib.flecha = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.green = function() {
+(lib.FondoInicial = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Hazard = function() {
+(lib.Fondo = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Iniesta = function() {
+(lib.Fontmap = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Instrucciones = function() {
+(lib.francemap = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.jugar = function() {
+(lib.GOOOL = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.led_off = function() {
+(lib.green = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.marcador = function() {
+(lib.Hazard = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.MarioGotze = function() {
+(lib.Iniesta = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.mira = function() {
+(lib.Instrucciones = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.modric = function() {
+(lib.jugar = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.patear = function() {
+(lib.led_off = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Pogba = function() {
+(lib.MarcadorFinal = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.port1 = function() {
+(lib.marcador = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.port2 = function() {
+(lib.MarioGotze = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.port3 = function() {
+(lib.mira = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.port4 = function() {
+(lib.modric = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.port5 = function() {
+(lib.mute = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.port6 = function() {
+(lib.patear = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.port7 = function() {
+(lib.Perdedor = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.red = function() {
+(lib.Pogba = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.replay = function() {
+(lib.port1 = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RobertLewandowski = function() {
+(lib.port2 = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Rooney = function() {
+(lib.port3 = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.trofeo = function() {
+(lib.port4 = function() {
 	this.spriteSheet = ss["juego_atlas_"];
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
+
+
+(lib.port5 = function() {
+	this.spriteSheet = ss["juego_atlas_"];
+	this.gotoAndStop(38);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.port6 = function() {
+	this.spriteSheet = ss["juego_atlas_"];
+	this.gotoAndStop(39);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.port7 = function() {
+	this.spriteSheet = ss["juego_atlas_"];
+	this.gotoAndStop(40);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.red = function() {
+	this.spriteSheet = ss["juego_atlas_"];
+	this.gotoAndStop(41);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.replay = function() {
+	this.spriteSheet = ss["juego_atlas_"];
+	this.gotoAndStop(42);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.RobertLewandowski = function() {
+	this.spriteSheet = ss["juego_atlas_"];
+	this.gotoAndStop(43);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Rooney = function() {
+	this.spriteSheet = ss["juego_atlas_"];
+	this.gotoAndStop(44);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.volume = function() {
+	this.spriteSheet = ss["juego_atlas_"];
+	this.gotoAndStop(45);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Zlatan = function() {
+	this.spriteSheet = ss["juego_atlas_"];
+	this.gotoAndStop(46);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.volumencan = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Capa 1
+	this.instance = new lib.volume();
+	this.instance.setTransform(-12,-24,0.06,0.06);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-12,-24,24,48);
 
 
 (lib.verde = function(mode,startPosition,loop) {
@@ -294,6 +372,30 @@ lib.properties = {
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-8,-8,16.1,16.1);
+
+
+(lib.Símbolo26 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Capa 1
+	this.instance = new lib.falloM();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,386,100);
+
+
+(lib.Símbolo25 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Capa 1
+	this.instance = new lib.fallo();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,508,108);
 
 
 (lib.Símbolo22 = function(mode,startPosition,loop) {
@@ -684,6 +786,19 @@ p.nominalBounds = new cjs.Rectangle(-97,-96,194,192);
 p.nominalBounds = new cjs.Rectangle(-8,-8,16.1,16.1);
 
 
+(lib.mutecan = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Capa 1
+	this.instance = new lib.mute();
+	this.instance.setTransform(-18,-24.7,0.062,0.062);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-18,-24.7,36,49.5);
+
+
 (lib.mira_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -705,6 +820,19 @@ p.nominalBounds = new cjs.Rectangle(-8,-8,16.1,16.1);
 p.nominalBounds = new cjs.Rectangle(-23.5,-23.5,47,47);
 
 
+(lib.marcadorFinal = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Capa 1
+	this.instance = new lib.MarcadorFinal();
+	this.instance.setTransform(-257,-124);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-257,-124,514,248);
+
+
 (lib.mapa = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -716,6 +844,32 @@ p.nominalBounds = new cjs.Rectangle(-23.5,-23.5,47,47);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-321.5,-314.5,643,629);
+
+
+(lib.k = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Capa 1
+	this.instance = new lib.Arda();
+	this.instance.setTransform(-129.5,-150);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-129.5,-150,259,300);
+
+
+(lib.j = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Capa 1
+	this.instance = new lib.Zlatan();
+	this.instance.setTransform(-169,-150);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-169,-150,338,300);
 
 
 (lib.instrucciones = function(mode,startPosition,loop) {
@@ -755,6 +909,19 @@ p.nominalBounds = new cjs.Rectangle(-168.7,-150,337.5,300);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-168.7,-150,337.5,300);
+
+
+(lib.ganador = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Capa 1
+	this.instance = new lib.Continuar();
+	this.instance.setTransform(-89.5,-28.6,0.716,0.716);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-89.5,-28.6,179,57.3);
 
 
 (lib.g = function(mode,startPosition,loop) {
@@ -1008,6 +1175,32 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-278,-122.5,556,245);
+
+
+(lib.falle = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Capa 1
+	this.instance = new lib.Símbolo26();
+	this.instance.setTransform(193,50,1,1,0,0,0,193,50);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.03,scaleY:1.03,x:192.9,y:50.3},0).wait(1).to({scaleX:1.06,scaleY:1.06,x:192.7,y:50.5},0).wait(1).to({scaleX:1.09,scaleY:1.09,x:192.6,y:50.7},0).wait(1).to({scaleX:1.12,scaleY:1.12,x:192.4,y:50.9},0).wait(1).to({scaleX:1.15,scaleY:1.15,x:192.2,y:51.1},0).wait(1).to({scaleX:1.19,scaleY:1.18,x:192,y:51.3},0).wait(1).to({scaleX:1.22,scaleY:1.21,x:191.9,y:51.5},0).wait(1).to({scaleX:1.25,scaleY:1.25,x:191.7,y:51.7},0).wait(1).to({scaleX:1.28,scaleY:1.27,x:191.5,y:51.9},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,386,100);
+
+
+(lib.fallaste = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Capa 1
+	this.instance = new lib.Símbolo25();
+	this.instance.setTransform(254,54,1,1,0,0,0,254,54);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.02,scaleY:1.02,x:253.8,y:54.1},0).wait(1).to({scaleX:1.04,scaleY:1.04,x:253.6,y:54.2},0).wait(1).to({scaleX:1.06,scaleY:1.06,x:253.4,y:54.3},0).wait(1).to({scaleX:1.08,scaleY:1.08,x:253.2,y:54.4},0).wait(1).to({scaleX:1.1,scaleY:1.1,x:252.9},0).wait(1).to({scaleX:1.12,scaleY:1.12,x:252.7,y:54.5},0).wait(1).to({scaleX:1.14,scaleY:1.14,x:252.5},0).wait(1).to({scaleX:1.16,scaleY:1.16,x:252.3,y:54.6},0).wait(1).to({scaleX:1.19,scaleY:1.19,x:252,y:54.7},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,508,108);
 
 
 (lib.direcciony = function(mode,startPosition,loop) {
@@ -1299,18 +1492,20 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 
 // stage content:
 (lib.juego = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
+if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
 	this.frame_0 = function() {
 		this.gotoAndStop(1);
+		
+		//Declaracion e inicializacion de las variables que se van a usar durante la ejecucion del programa
 		var presentacion = this;
-		//var equipoSelec; 
 		this.equipoSelec = 0;
 		var teams= new Array(this.francia, this.belgica, this.portugal, this.espana, 
-		this.alemania, this.croacia, this.polonia, this.inglaterra, this.italia);
+		this.alemania, this.croacia, this.polonia, this.inglaterra, this.italia, 
+		this.turquia, this.suecia);
 		this.equipos= new Array("Francia", "Belgica", "Portugal", "España", 
-		"Alemania", "Croacia", "Polonia", "Inglaterra", "Italia");
+		"Alemania", "Croacia", "Polonia", "Inglaterra", "Italia","Turquia","Suecia");
 		this.instrucciones=true;
 		this.partido=0;
 		this.actual=0;
@@ -1329,12 +1524,43 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 		this.pateadores=new Array(0,0);
 		this.porteros=new Array(this.p0,this.p1,this.p2,this.p3,this.p4,this.p5)
 		
-		this.boton.addEventListener("click", parar);
-		function parar() {
-			presentacion._goto(2);
-			this.instrucciones=true;
+		//Funciones control del sonido
+		this.mutecan.addEventListener("click", mutecan);
+		this.mutecan1.addEventListener("click", mutecan);
+		this.mutecan.addEventListener("click", mutecan);
+		function mutecan(){
+			createjs.Sound.stop();
+			presentacion.mutecan.visible=false;
+			presentacion.mutecan1.visible=false;
+			presentacion.volumencan.visible=true;
+			presentacion.volumencan1.visible=true;
 		}
 		
+		this.volumencan.addEventListener("click",volumencan);
+		this.volumencan1.addEventListener("click",volumencan);
+		this.volumencan.addEventListener("click",volumencan);
+		function volumencan(){
+			playSound("sonido",{loop:2})
+			createjs.Sound.volume=0.1;
+			presentacion.mutecan.visible=true;
+			presentacion.volumencan.visible=false;
+			presentacion.mutecan1.visible=true;
+			presentacion.volumencan1.visible=false;
+		}
+		//Funcion para avanzar en la pantalla principal del juego
+		this.boton.addEventListener("click", iniciar);
+		function iniciar() {
+			presentacion._goto(2);
+			this.instrucciones=true;
+			playSound("sonido",{loop:2})
+			createjs.Sound.volume=0.1;
+			presentacion.mutecan1.visible=true;
+			presentacion.mutecan.visible=true;
+			presentacion.volumencan.visible=false;
+			presentacion.volumencan1.visible=false;
+		}
+		
+		//Funciones para el cambio del equipo seleccionado durante el juego, con mouse y teclado
 		this.next.addEventListener("click", siguiente);
 		function siguiente(){
 				teams[presentacion.equipoSelec].visible=false;
@@ -1360,15 +1586,18 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 			} 
 		}
 		
+		//Funcion para avanzar al mapa cuando se selecciona el equipo
 		this.comenzar.addEventListener("click", irMapa);
 		function irMapa(){
 				
 				presentacion._goto(3);
 		}
 		
-		
+		//Funcion para el boton que selecciona la direccion del disparo
 		presentacion.patearx.addEventListener("click", patearX);
 		function patearX(){
+			//Se detiene la animacion de la flecha y se calcula la posicion con auntaX()
+			//se inicia la animacion de la flecha vertical
 			presentacion.direccion.stop();
 			apuntaX(presentacion.direccion.flecha.x);
 			presentacion.patearx.visible=false;
@@ -1377,16 +1606,22 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 			presentacion.altura.play();
 		}
 		
-		
+		//Funcion para seleccionar altura del disparo y ejecutar la animacion de patear
 		this.patear.addEventListener("click", patear);
 		function patear(){
+				//Cuando el jugador patea, el portero se lanza aleatoriamente
 				this.portero=this.dir=Math.floor(Math.random()*6)
+				//Se detiene flecha de altura
 				presentacion.altura.stop();
+				//Se calcula altura segun flecha
 				apuntaY(presentacion.altura.flecha.y);
 				
+				//direccion() decide que animacion de balon mostrar
 				direccion();
+				//disparo muestra las animaciones necesarias segun los valores de direccion
 				disparo()
-				
+				//Se espera 1451 milisegundos mientras se muestrala animacion y muestra 
+				//los controles necesarios para el siguiente paso
 				setTimeout(function(){
 					
 					presentacion.patear.visible=false;
@@ -1399,12 +1634,22 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 				
 		}
 		
+		//Funcion para seleccionar a donde lanzar el portero cuando toca tapar 
 		this.mira.addEventListener("click",tapar);
 		function tapar(){
-			
-			this.dir=Math.floor(Math.random()*15)
+			//Se selecciona una posicion de pateo aleatoria
+			var temp=Math.random()
+			if(temp<0.65){
+				this.dir=Math.floor(Math.random()*6)
+			}else{
+				this.dir=Math.floor(Math.random()*9)+6;
+			}
+			//port() elige animacion segun entrada del usuario
 			port();
+			//disparo muestra las animaciones necesarias segun los valores de portero
 			disparo()
+			//Se espera 1451 milisegundos mientras se muestrala animacion y muestra 
+			//los controles necesarios para el siguiente paso
 			setTimeout(function(){
 			presentacion.direccion.play()
 			presentacion.patearx.visible=true;
@@ -1414,8 +1659,9 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 				presentacion.altura.visible=true;
 				presentacion.mira.visible=false;}, 1451);
 		}
-		
+		//Muestra las animaciones indicadas segun los valores que eligio el usuario
 		function disparo(){
+			//Muestra la animacion de portero y balon correspondientes
 			presentacion.ball.visible=false;
 			presentacion.balones[this.dir].visible=true;
 			presentacion.balones[this.dir].play();
@@ -1423,7 +1669,7 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 			presentacion.p.visible=false;
 			presentacion.porteros[this.portero].visible=true;
 			presentacion.porteros[this.portero].play();
-			
+			//Despues 1451 milisegundos oculta y detiene las animaciones 
 			setTimeout(function(){
 				presentacion.balones[this.dir].stop();
 				presentacion.balones[this.dir].visible=false;
@@ -1433,18 +1679,22 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 				presentacion.porteros[this.portero].visible=false;
 				presentacion.p.visible=true;
 				
+				//Determina si el disparo fue gol o fallo
 				if(this.dir<6&&(this.dir!=this.portero)){
 					presentacion.pateadores[this.actual]++;
 					gol()
 				}else{
 					fallo()
 				}
+				//Aumenta la ronda de tanda de penalties
 				if(this.actual==1){
 					this.ronda++;
 				}
-				
+				//Si se llega al 5 lanzamiento se define el ganador o si es necesario pasar
+				//a penalties extras
 				if(this.ronda>=5){
 					if(this.actual==1){
+						//Si hay empate acomoda marcador y continuan los lanzamientos
 						if(presentacion.pateadores[0]==presentacion.pateadores[1]){
 							if(this.ronda%5==0){
 								for(i=0;i<5;i++){
@@ -1456,35 +1706,60 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 									presentacion.lucesVisitante[i][2].visible=false;
 								}
 							}
-						}else if(presentacion.pateadores[0]>presentacion.pateadores[1]){
+						//Se revisa si hay un ganador
+						
+						}else{
+							presentacion.mfinal.visible=true;
+							presentacion.ganador.visible=true;
+							presentacion.patear.visible=false;
+							presentacion.patearx.visible=false;
+							presentacion.local2.text=presentacion.equipos[presentacion.equipoSelec];
+							presentacion.visitante2.text=presentacion.equipos[(presentacion.equipoSelec+presentacion.partido+1)%presentacion.equipos.length];
+							presentacion.marcadorLocal2.text=presentacion.pateadores[0].toString();
+							presentacion.marcadorVisitante2.text=presentacion.pateadores[1].toString();
+							presentacion.direccion.stop();
+						} 
+					}
+				}
+				//Al fnal de cada disparo cambia al siguiente jugador actual (usuario o maquina)
+				this.actual=(this.actual+1)%2;
+				}, 1451);
+					
+		}
+		this.ganador.addEventListener("click",ganador);
+		function ganador(){
+			presentacion.local2.text="";
+			presentacion.visitante2.text="";
+			presentacion.marcadorLocal2.text="";
+			presentacion.marcadorVisitante2.text="";
+			if(presentacion.pateadores[0]>presentacion.pateadores[1]){
+							//Si es el ultimo partido lleva a la pantalla de ganador
 							if(presentacion.partido==9){
 									presentacion._goto(6);
 									this.actual=0;
+							//Si es un partido inteermedio lleva al mapa para entrar en la siguiente ciudad
 							}else{
 								presentacion.partido++;
 								presentacion._goto(3);
 								
 							}
-							
+						//Si el usuario perdio, lo lleva a la pantalla de Game over
 						}else{
+							mute();
 							this.actual=0;
 							presentacion.gotoAndStop(5);
 						}
-					}
-				}
-				this.actual=(this.actual+1)%2;
-				}, 1451);
-					
 		}
-		
+		//Funcion que se ejecuta cuando hay gol
 		function gol(){
+			//Muestra animacion de gol
 			presentacion.gol.visible=true;
 			presentacion.gol.play()
 			setTimeout(function(){
 			presentacion.direccion.play()
 			presentacion.gol.visible=false;
 			presentacion.gol.stop()}, 451);
-			
+			//Actualiza marcador
 			if(this.actual==0){
 				presentacion.lucesLocal[this.ronda%5][0].visible=false;
 				presentacion.lucesLocal[this.ronda%5][1].visible=true;
@@ -1499,19 +1774,30 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 		}
 		
 		function fallo(){
+			//Muestra animacion de fallo y actualiza marcador
 			if(this.actual==0){
+				presentacion.fallaste.visible=true;
+				presentacion.fallaste.play()
+				setTimeout(function(){
+					presentacion.fallaste.visible=false;
+					presentacion.fallaste.stop()}, 451);
 				presentacion.lucesLocal[this.ronda%5][0].visible=false;
 				presentacion.lucesLocal[this.ronda%5][1].visible=false;
 				presentacion.lucesLocal[this.ronda%5][2].visible=true;
 				
 			}else{
+				presentacion.falle.visible=true;
+				presentacion.falle.play()
+				setTimeout(function(){
+					presentacion.falle.visible=false;
+					presentacion.falle.stop()}, 451);
 				presentacion.lucesVisitante[this.ronda%5][0].visible=false;
 				presentacion.lucesVisitante[this.ronda%5][1].visible=false;
 				presentacion.lucesVisitante[this.ronda%5][2].visible=true;
 			}
 		}
 		
-		
+		//Funcion para reiniciar el juego
 		this.reiniciar.addEventListener("click", reiniciar);
 		function reiniciar() {
 			presentacion.partido=0;
@@ -1520,8 +1806,10 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 			this.actual=0;
 			this.equipoSelec = 0;
 			presentacion.gotoAndStop(1);
+			mute();
 		}	
-			
+		
+		//Funcion que asigna la posicion del arco a la que se patea segun flecha horizontal
 		function apuntaX(x){
 			if(x<60){
 				this.x=1;
@@ -1540,6 +1828,7 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 			}
 		}
 		
+		//Funcion que asigna la posicion del arco a la que se patea segun flecha vertical
 		function apuntaY(y){
 			if(y<-180){
 				this.y=1;
@@ -1553,6 +1842,8 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 		}
 		
 		
+		//Funcion que asigna la posicion del arco a la que se patea segun combinacion vertical 
+		//y horizontal
 		function direccion(){
 			if(this.x==5&&this.y==3){
 				this.dir=0;
@@ -1589,6 +1880,7 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 			}
 		}
 		
+		//Selecciona posicion de animacion de portero segun seleccion de usuario
 		function port(){
 			if(this.xPor>358&&this.xPor<488&&this.yPor>162.75&&this.yPor<227){
 				this.portero=5;
@@ -1607,6 +1899,7 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 			}
 		}
 		
+		//Oculta las instrucciones
 		this.continuar.addEventListener("click",cerrarInstrucciones);
 		function cerrarInstrucciones(){
 			this.instrucciones=false;
@@ -1617,8 +1910,10 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 	}
 	this.frame_3 = function() {
 		var presentacion=this;
+		//MUestra la fase actual del juego
 		this.fase.text="Fase: "+(this.partido+1);
 		
+		//Almacenamiento de elementos graficos del mapa en un arreglo para un manejo mas sencillo
 		var bordeos= new Array(this.bordeos_green, this.bordeos_off, this.bordeos_red, "Bordeos");
 		var toulouse= new Array(this.toulouse_green, this.toulouse_off, this.toulouse_red, "Toulouse");
 		var marsella= new Array(this.marsella_green, this.marsella_off, this.marsella_red, "Marsella");
@@ -1634,6 +1929,7 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 		this.cities= new Array(bordeos,toulouse, marsella, niza, etienne, lyon, lille, lens, paris, denis);
 		this.proximo.text="Tu proximo partido es en: "+(this.cities[this.partido])[3];
 		
+		//Asignacion de funcion jugar a los botones titilantes del mapa
 		this.bordeos_off.addEventListener("click",jugar)
 		this.toulouse_off.addEventListener("click",jugar)
 		this.marsella_off.addEventListener("click",jugar)
@@ -1645,8 +1941,11 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 		this.paris_off.addEventListener("click",jugar)
 		this.denis_off.addEventListener("click",jugar)
 		
+		//Inicializa el campo de futbol cada vez que entra a alguna ciudad del mapa
 		function inicializar(){
 			balonAlCentro();
+			presentacion.mfinal.visible=false;
+			presentacion.ganador.visible=false;
 			presentacion.gol.visible=false;
 			presentacion.patear.visible=false;
 			presentacion.patearx.visible=true;
@@ -1660,6 +1959,7 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 			
 		}
 		
+		//Muestra las animaciones necesarias de inicio en la pantalla de pateo
 		function balonAlCentro(){
 			presentacion.ball.visible=true;
 			presentacion.p.visible=true;
@@ -1673,18 +1973,21 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 			}
 			
 		}
-		
+		//Lleva a la pantalla de pateo
 		function jugar() {
 			presentacion.gotoAndStop(4);	
 			inicializar();
 			
 		}
+		
+		
 		if(presentacion.partido>9){
 			presentacion.partido=0;
 			presentacion.gotoAndStop(0);
 				
 		}
 		
+		//Muestra que ciudades ya estan completas, cual es la siguientes y cuales faltan
 		for(i=0;i<this.partido;i++){
 			visited(i);
 		}
@@ -1693,21 +1996,21 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 			pendiente(i);
 		}
 			
-		
+		//Muestra luz titilante en la ciudad especificada
 		function off(city){
 				var ciudad=cities[city];
 				ciudad[0].visible=false;
 				ciudad[1].visible=true;
 				ciudad[2].visible=false;
 		}
-		
+		//Muestra luz verde en la ciudad especificada
 		function visited(city){
 				var ciudad=cities[city];
 				ciudad[0].visible=true;
 				ciudad[1].visible=false;
 				ciudad[2].visible=false;
 		}
-		
+		//Muestra luz roja en la ciudad especificada
 		function pendiente(city){
 				var ciudad=cities[city];
 				ciudad[0].visible=false;
@@ -1721,6 +2024,8 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 		this.visitante.text=this.equipos[(this.equipoSelec+this.partido+1)%this.equipos.length];
 		this.marcadorLocal.text=0;
 		this.marcadorVisitante.text=0;
+		
+		//Inicia las luces del marcador para cada encuentro nuevo
 		iniciarLuces()
 		function iniciarLuces(){
 			
@@ -1738,27 +2043,80 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 			}
 		}
 		
+		//Guarda el valor de la mira con el movimiento del mouse
 		addEventListener("mousemove", moverMira);
 		function moverMira(){
-			if(event.clientX>228&&event.clientX<619&&event.clientY>98.50&&event.clientY<227){
-				presentacion.mira.x=event.clientX;
-				presentacion.mira.y=event.clientY;
-				this.xPor=event.clientX;
-				this.yPor=event.clientY;
+			if(event.offsetX>228&&event.offsetX<619&&event.offsetY>98.50&&event.offsetY<227){
+				
+				presentacion.mira.x=event.offsetX;
+				presentacion.mira.y=event.offsetY;
+				this.xPor=event.offsetX;
+				this.yPor=event.offsetY;
 			}
 		}
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3).call(this.frame_3).wait(1).call(this.frame_4).wait(3));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3).call(this.frame_3).wait(1).call(this.frame_4).wait(4));
 
 	// Capa 2
+	this.volumencan = new lib.volumencan();
+	this.volumencan.setTransform(27.1,445.1);
+
+	this.mutecan = new lib.mutecan();
+	this.mutecan.setTransform(32.8,446.8);
+
+	this.marcadorVisitante2 = new cjs.Text("", "14px 'Buxton Sketch'", "#FFFFFF");
+	this.marcadorVisitante2.name = "marcadorVisitante2";
+	this.marcadorVisitante2.textAlign = "center";
+	this.marcadorVisitante2.lineHeight = 19;
+	this.marcadorVisitante2.lineWidth = 8;
+	this.marcadorVisitante2.setTransform(423,203.1);
+
+	this.marcadorLocal2 = new cjs.Text("", "14px 'Buxton Sketch'", "#FFFFFF");
+	this.marcadorLocal2.name = "marcadorLocal2";
+	this.marcadorLocal2.textAlign = "center";
+	this.marcadorLocal2.lineHeight = 19;
+	this.marcadorLocal2.lineWidth = 8;
+	this.marcadorLocal2.setTransform(395.4,203.1);
+
+	this.visitante2 = new cjs.Text(" ", "20px 'Buxton Sketch'");
+	this.visitante2.name = "visitante2";
+	this.visitante2.textAlign = "center";
+	this.visitante2.lineHeight = 27;
+	this.visitante2.lineWidth = 141;
+	this.visitante2.setTransform(531.4,200.2);
+
+	this.local2 = new cjs.Text("", "20px 'Buxton Sketch'");
+	this.local2.name = "local2";
+	this.local2.textAlign = "center";
+	this.local2.lineHeight = 27;
+	this.local2.lineWidth = 153;
+	this.local2.setTransform(294.8,200.2);
+
+	this.ganador = new lib.ganador();
+	this.ganador.setTransform(565.9,303.6);
+
+	this.mfinal = new lib.marcadorFinal();
+	this.mfinal.setTransform(411.9,216.4);
+
 	this.continuar = new lib.comenzar2();
 	this.continuar.setTransform(132.9,408.3,0.32,0.32,0,0,0,-0.3,-2.2);
 	this.continuar.visible = false;
 
 	this.letrero = new lib.instrucciones();
-	this.letrero.setTransform(424.9,247.1);
+	this.letrero.setTransform(430.4,272);
+
+	this.falle = new lib.falle();
+	this.falle.setTransform(422,184,1,1,0,0,0,193,50);
+	this.falle.visible = false;
+
+	this.fallaste = new lib.fallaste();
+	this.fallaste.setTransform(444.5,218.2,1,1,0,0,0,254,54);
+	this.fallaste.visible = false;
+
+	this.balon = new lib.balon_1();
+	this.balon.setTransform(424,317.4,0.649,0.649,0,0,0,-4,-4.4);
 
 	this.balon3 = new lib.balon3();
 	this.balon3.setTransform(376,311.2,0.692,0.69,0,0,0,-0.1,-0.1);
@@ -1806,7 +2164,8 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 	this.balon2.setTransform(321.6,288.1,0.039,0.039);
 
 	this.gol = new lib.gol();
-	this.gol.setTransform(440.9,196.2);
+	this.gol.setTransform(509,206.9);
+	this.gol.visible = false;
 
 	this.p2 = new lib._2();
 	this.p2.setTransform(398.4,177.5,1,1,0,0,180,30.5,0);
@@ -1977,16 +2336,16 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 	this.local.lineWidth = 153;
 	this.local.setTransform(321.5,20.3);
 
-	this.balon = new lib.balon_1();
-	this.balon.setTransform(424,317.4,0.649,0.649,0,0,0,-4,-4.4);
-
 	this.instance = new lib.marcador();
 	this.instance.setTransform(221.9,0,0.574,0.574);
 
 	this.instance_1 = new lib.arco();
-	this.instance_1.setTransform(0,0,0.664,0.664);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance},{t:this.balon},{t:this.local},{t:this.visitante},{t:this.local_1_verde},{t:this.local_2_verde},{t:this.local_3_verde},{t:this.local_4_verde},{t:this.local_5_verde},{t:this.visitante_1_verde},{t:this.visitante_2_verde},{t:this.visitante_3_verde},{t:this.visitante_4_verde},{t:this.visitante_5_verde},{t:this.local_1_rojo},{t:this.local_2_rojo},{t:this.local_1},{t:this.local_2},{t:this.local_3},{t:this.local_4},{t:this.local_5},{t:this.local_3_rojo},{t:this.local_4_rojo},{t:this.local_5_rojo},{t:this.visitante_1_rojo},{t:this.visitante_2_rojo},{t:this.visitante_3_rojo},{t:this.visitante_4_rojo},{t:this.visitante_5_rojo},{t:this.visitante_1},{t:this.visitante_2},{t:this.visitante_3},{t:this.visitante_4},{t:this.visitante_5},{t:this.marcadorLocal},{t:this.marcadorVisitante},{t:this.direccion},{t:this.altura},{t:this.barra1},{t:this.barra2},{t:this.mira},{t:this.p3},{t:this.patear},{t:this.patearx},{t:this.p1},{t:this.p5},{t:this.p4},{t:this.p},{t:this.p0},{t:this.p2},{t:this.gol},{t:this.balon2},{t:this.balon12},{t:this.balon15},{t:this.ball},{t:this.balon13},{t:this.balon10},{t:this.balon14},{t:this.balon11},{t:this.balon9},{t:this.balon6},{t:this.balon7},{t:this.balon8},{t:this.balon5},{t:this.balon4},{t:this.balon3},{t:this.letrero},{t:this.continuar}]},4).to({state:[]},1).wait(2));
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFF66").ss(1,1,1).p("AAAACQgIgDgVgPQAjADASAWQgGgEgMgCIgjgTAAGADQgDgBgDAAQAPAKAPAFgAAYAJQADAEADAE");
+	this.shape.setTransform(3,1.8);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape},{t:this.instance_1},{t:this.instance},{t:this.local},{t:this.visitante},{t:this.local_1_verde},{t:this.local_2_verde},{t:this.local_3_verde},{t:this.local_4_verde},{t:this.local_5_verde},{t:this.visitante_1_verde},{t:this.visitante_2_verde},{t:this.visitante_3_verde},{t:this.visitante_4_verde},{t:this.visitante_5_verde},{t:this.local_1_rojo},{t:this.local_2_rojo},{t:this.local_1},{t:this.local_2},{t:this.local_3},{t:this.local_4},{t:this.local_5},{t:this.local_3_rojo},{t:this.local_4_rojo},{t:this.local_5_rojo},{t:this.visitante_1_rojo},{t:this.visitante_2_rojo},{t:this.visitante_3_rojo},{t:this.visitante_4_rojo},{t:this.visitante_5_rojo},{t:this.visitante_1},{t:this.visitante_2},{t:this.visitante_3},{t:this.visitante_4},{t:this.visitante_5},{t:this.marcadorLocal},{t:this.marcadorVisitante},{t:this.direccion},{t:this.altura},{t:this.barra1},{t:this.barra2},{t:this.mira},{t:this.p3},{t:this.patear},{t:this.patearx},{t:this.p1},{t:this.p5},{t:this.p4},{t:this.p},{t:this.p0},{t:this.p2},{t:this.gol},{t:this.balon2},{t:this.balon12},{t:this.balon15},{t:this.ball},{t:this.balon13},{t:this.balon10},{t:this.balon14},{t:this.balon11},{t:this.balon9},{t:this.balon6},{t:this.balon7},{t:this.balon8},{t:this.balon5},{t:this.balon4},{t:this.balon3},{t:this.balon},{t:this.fallaste},{t:this.falle},{t:this.letrero},{t:this.continuar},{t:this.mfinal},{t:this.ganador},{t:this.local2},{t:this.visitante2},{t:this.marcadorLocal2},{t:this.marcadorVisitante2},{t:this.mutecan},{t:this.volumencan}]},4).to({state:[]},1).wait(3));
 
 	// Capa 4
 	this.boton = new lib.boton();
@@ -1994,7 +2353,21 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 	new cjs.ButtonHelper(this.boton, 0, 1, 1);
 
 	this.instance_2 = new lib.FondoInicial();
-	this.instance_2.setTransform(0.1,0,0.443,0.443);
+	this.instance_2.setTransform(0.5,0.5);
+
+	this.volumencan1 = new lib.volumencan();
+	this.volumencan1.setTransform(27.1,445.2);
+
+	this.mutecan1 = new lib.mutecan();
+	this.mutecan1.setTransform(32.8,446.7);
+
+	this.turquia = new lib.k();
+	this.turquia.setTransform(448.8,173.9,0.933,0.933,0,0,0,-0.4,0);
+	this.turquia.visible = false;
+
+	this.suecia = new lib.j();
+	this.suecia.setTransform(425.3,167.7,0.966,0.967,0,0,0,-0.1,0);
+	this.suecia.visible = false;
 
 	this.comenzar = new lib.comenzar2();
 	this.comenzar.setTransform(429.7,353.2,0.305,0.304,0,0,0,-0.1,-4.6);
@@ -2043,7 +2416,6 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 	this.francia.setTransform(377.3,163.9,0.75,0.75);
 
 	this.instance_3 = new lib.Fontmap();
-	this.instance_3.setTransform(0,-0.6,0.443,0.443);
 
 	this.proximo = new cjs.Text("", "bold 24px 'Arial'", "#FFFFFF");
 	this.proximo.name = "proximo";
@@ -2153,36 +2525,23 @@ p.nominalBounds = new cjs.Rectangle(-32,-56.5,64,113);
 	this.instance_5 = new lib.mapa("synched",0);
 	this.instance_5.setTransform(532.7,205.7,0.639,0.639,0,0,0,-5.1,0.1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.boton}]}).to({state:[{t:this.instance_3,p:{y:-0.6}},{t:this.francia},{t:this.belgica},{t:this.portugal},{t:this.espana},{t:this.alemania},{t:this.croacia},{t:this.polonia},{t:this.inglaterra},{t:this.italia},{t:this.next},{t:this.previo},{t:this.comenzar}]},2).to({state:[{t:this.instance_3,p:{y:-0.1}},{t:this.instance_5},{t:this.bordeos_green},{t:this.bordeos_off},{t:this.bordeos_red},{t:this.toulouse_green},{t:this.toulouse_off},{t:this.toulouse_red},{t:this.marsella_green},{t:this.marsella_off},{t:this.marsella_red},{t:this.niza_green},{t:this.niza_off},{t:this.niza_red},{t:this.etienne_green},{t:this.etienne_off},{t:this.etienne_red},{t:this.lyon_green},{t:this.lyon_off},{t:this.lyon_red},{t:this.paris_green},{t:this.paris_off},{t:this.paris_red},{t:this.denis_green},{t:this.denis_off},{t:this.denis_red},{t:this.lens_green},{t:this.lens_off},{t:this.lens_red},{t:this.lille_green},{t:this.lille_off},{t:this.lille_red},{t:this.instance_4},{t:this.fase},{t:this.proximo}]},1).to({state:[]},1).wait(3));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.boton}]}).to({state:[{t:this.instance_3,p:{y:0}},{t:this.francia},{t:this.belgica},{t:this.portugal},{t:this.espana},{t:this.alemania},{t:this.croacia},{t:this.polonia},{t:this.inglaterra},{t:this.italia},{t:this.next},{t:this.previo},{t:this.comenzar},{t:this.suecia},{t:this.turquia},{t:this.mutecan1,p:{x:32.8,y:446.7}},{t:this.volumencan1,p:{y:445.2}}]},2).to({state:[{t:this.instance_3,p:{y:0.7}},{t:this.instance_5},{t:this.bordeos_green},{t:this.bordeos_off},{t:this.bordeos_red},{t:this.toulouse_green},{t:this.toulouse_off},{t:this.toulouse_red},{t:this.marsella_green},{t:this.marsella_off},{t:this.marsella_red},{t:this.niza_green},{t:this.niza_off},{t:this.niza_red},{t:this.etienne_green},{t:this.etienne_off},{t:this.etienne_red},{t:this.lyon_green},{t:this.lyon_off},{t:this.lyon_red},{t:this.paris_green},{t:this.paris_off},{t:this.paris_red},{t:this.denis_green},{t:this.denis_off},{t:this.denis_red},{t:this.lens_green},{t:this.lens_off},{t:this.lens_red},{t:this.lille_green},{t:this.lille_off},{t:this.lille_red},{t:this.instance_4},{t:this.fase},{t:this.proximo},{t:this.volumencan1,p:{y:445.1}},{t:this.mutecan1,p:{x:33.3,y:445.9}}]},1).to({state:[]},1).wait(4));
 
 	// Capa 1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#FFFF66").ss(1,1,1).p("AFeAAQAAA3hnAoQhmAoiRAAQiQAAhmgoQhngoAAg3QAAg2BngoQBmgoCQAAQCRAABmAoQBnAoAAA2g");
-	this.shape.setTransform(655,190.5);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#000000").s().p("Aj2BfQhmgngBg4QABg3BmgnQBmgnCQAAQCRAABmAnQBnAngBA3QABA4hnAnQhmAoiRAAQiQAAhmgog");
-	this.shape_1.setTransform(655,190.5);
-
 	this.reiniciar = new lib.replay_1();
-	this.reiniciar.setTransform(460.9,339.3,0.388,0.388,0,0,0,-0.1,-2.5);
+	this.reiniciar.setTransform(106,326.8,0.319,0.318,0,0,0,0,-3.1);
 	new cjs.ButtonHelper(this.reiniciar, 0, 1, 1);
 
-	this.text = new cjs.Text("GAME OVER", "120px 'Buxton Sketch'");
-	this.text.lineHeight = 150;
-	this.text.lineWidth = 555;
-	this.text.setTransform(195.1,128);
+	this.instance_6 = new lib.Perdedor();
+	this.instance_6.setTransform(0,0,1,0.897);
 
-	this.instance_6 = new lib.Fontmap();
-	this.instance_6.setTransform(0,0,0.443,0.443);
+	this.instance_7 = new lib.Fondo();
+	this.instance_7.setTransform(0,0,1,0.897);
 
-	this.instance_7 = new lib.trofeo();
-	this.instance_7.setTransform(399,4.5,0.826,0.826);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).to({state:[]},1).to({state:[{t:this.instance_6},{t:this.text,p:{x:195.1,y:128,text:"GAME OVER",font:"120px 'Buxton Sketch'",textAlign:"",lineHeight:150.15,lineWidth:555}},{t:this.reiniciar,p:{regY:-2.5,scaleX:0.388,scaleY:0.388,x:460.9,y:339.3}}]},4).to({state:[{t:this.instance_6},{t:this.text,p:{x:440.5,y:231.1,text:"FELICIDADES!\nCAMPEON!!",font:"47px 'Buxton Sketch'",textAlign:"center",lineHeight:60.05,lineWidth:635}},{t:this.instance_7},{t:this.reiniciar,p:{regY:-3.2,scaleX:0.33,scaleY:0.329,x:448.4,y:376}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_6},{t:this.reiniciar,p:{regX:0,regY:-3.1,scaleX:0.319,scaleY:0.318,x:106,y:326.8}}]},6).to({state:[{t:this.instance_7},{t:this.reiniciar,p:{regX:-0.1,regY:-3.4,scaleX:0.312,scaleY:0.31,x:105.5,y:353.9}}]},1).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(425.1,239,850,478.1);
+p.nominalBounds = new cjs.Rectangle(425.5,239.5,850,478);
 
 })(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
 var lib, images, createjs, ss;

@@ -1,0 +1,464 @@
+@charset "UTF-8";
+ /*	estilos generales del sitio*/
+*{
+  margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+
+}
+/*propiedades de las barras superiores, menu y titulo*/
+.clearfix {
+	display: table;
+  	line-height: 0;
+  	content: "";
+}
+/*Dimensiones de las barras horizontalmente*/
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+/*ocultar checkbox que ayuda en el menu en pantalla menor de 480px*/
+#open{
+	display: none;
+}
+/*propiedades de el menu de navegación*/
+/*fixed permite que este siempre visible*/
+header{
+	width: 100%;
+	height: auto;
+	background: black;
+	position: fixed;
+	z-index: 2;
+}
+/*propiedades division menu (titulo y botones)*/
+.header-left,
+.header-right{
+	vertical-align: middle;
+	position: relative;
+	color: #B4B4B4;
+	float: left;
+	font-size: 13px;
+	font-family:"Berlin Sans FB";
+}
+/*porcentajes correspondientes a cada seccion menu*/
+.header-left{
+	width: 50%;
+}
+
+.header-right{
+	width: 50%;
+}
+/*propiedades etiquetas menu de navegacion*/
+.header-right label{
+	position: absolute;
+	top: -3.7em;
+	right: 0;
+	cursor: pointer;
+}
+/*boton del menu despegable en pantallas menores de 480*/
+/*Se crea un cuadrado y dos lineas encima para dar forma al boton convencional*/
+.header-right span{
+	width: 2em;
+	height: 2em;
+	background: white;
+}
+.header-right span:before,
+.header-right span:after{
+	content: '';
+	position: absolute;
+	width: 2em;
+	height: .5em;
+	top: 4px;
+	left: 0;
+	background: #3a3a3a;
+}
+.header-right span:after{
+	top: 14px;
+}
+
+/*propiedades titulos principales*/
+h1{
+	font-weight: 300;
+	line-height: 40px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+/*tamaños en el menu de navegacion*/
+nav>a{
+	position: relative;
+	font-size: 13px;
+	line-height: 40px;
+	padding: 0 2em;
+}
+/*ocultar menu despegable mientras se este en pantalla mayor de 480*/
+.hidden-desktop{
+	display: none;
+}
+
+/*Seccion del titulo de la pagina */
+/*En algunos casos tambien contiene boton de enlace externo*/
+section{
+	margin:auto;
+	width: 90%;
+	height: auto;
+	background: #A4B3E4;
+}
+
+body{
+	background: #E1E1E1;
+
+}
+
+/*Formato de subtitulos y texto del cuerpo de cada pagina*/
+h2, p{
+	padding: .5em 5em .5em 5em;
+	font-family: "Berlin Sans FB";
+}
+
+h2{
+	font-weight: 100;
+	font-size: 28px;
+}
+p{
+	text-align : justify;
+	font-size: 18px;
+}
+/*Estilos de los enlaces de donde se tomo la informacion*/
+a.refe{
+	padding: .5em 5em .5em 5em;
+	font-family: "Berlin Sans FB";
+	text-align : justify;
+	font-size: 18px;
+	color: black;
+}
+
+/*dimensiones del espacio del cuerpo de las pagimas*/
+.cuerpo{
+	margin: 0 auto;
+	width: 90%;
+	height: auto;
+	background: white;
+}
+
+/*division de la seccion para titulos y botones*/
+.section-left,
+.section-right{
+	float: left;
+}
+
+img{
+	width: 90%
+}
+.section-left{
+	width: 70%;
+	padding: 2.1em 0;
+	margin-top: 1em;
+}
+
+.section-right{
+	width: 30%;
+}
+
+/*Estilo titulo de cada pagina*/
+.section-title{
+	color: #000000;
+	font-family: "Berlin Sans FB";
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
+	font-size: 2.5em;
+}
+
+/*Estio botones de enlace externo*/
+.learn-more{
+	display: table;
+	margin: 3em auto 0;
+	padding: 1.3em 4em;
+	cursor: pointer;
+	border-radius: 3px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.8);
+	background: #2F4DAE;
+	font-size: 1.1em;
+}
+
+.learn-more:active{
+	box-shadow: inset 0 2px 0 rgba(0,0,0,.8);
+}
+
+/*Estilo y margenes de las tablas*/
+.juego{
+	padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*colores de la filas de encabezado de la tabla*/
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+/*formato de las celdas de las tablas*/
+th, td:before {
+    color: #fff;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+
+}
+/*Formato del div que contiene las imagenes alineadas a la izq*/
+.copa{
+	margin-left: 6em;
+	float:left;   
+    position:relative;
+    z-index: 1;
+}
+/*Formato del div que contiene las imagenes alineadas a la der*/
+.copader{
+	margin-right: 6em;
+	float:right;  
+    position:relative;
+    z-index: 1;
+}
+/*Formato de las imagenes alineadas a la izq*/
+.copa img {
+		display: table;
+ 		max-width: 100%;
+ 		height: auto;
+	}
+	/*Formato de las imagenes alineadas a la izq*/
+.copader img {
+		display: table;
+ 		max-width: 90%;
+ 		height: auto;
+	}
+
+.izq{
+	float: left;
+	margin-right: 20px;
+}
+
+.der{
+	float: right;
+	margin-left:20px;
+}
+.cen{
+	max-width: 100%;
+ 	height: auto;
+}
+.creditos{
+	text-align: center;
+}
+
+/*Formato pie de fotos*/
+div.description{
+	position:absolute; 
+    bottom:0px; 
+    left:0px;  
+    width:auto;  
+    background-color:black;  
+    font-size:10px;  
+    color:white;  
+    opacity:0.6;   
+    filter:alpha(opacity=60); 
+}
+
+div.descriptiond{
+	position:absolute; 
+    bottom:0px; 
+    left:50px;  
+    width:auto;   
+    background-color:black;  
+    font-size:10px;  
+    color:white;  
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+p.description_content{
+	padding:0px;  
+    margin:0px;
+    font-size: 15px; 
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+/*Redimensionamiento 1263 del menu de navegacion*/
+/*Se hacen ajustes de tamaño y margenes para que se vea mejor*/	
+@media (max-width: 1263px) {
+	.container{
+		width: 95%;
+	}
+	nav>a{
+		padding: 0 2em;
+	}
+	h1{
+		padding: .5em 0;
+	}
+	.header-left,
+	.header-right{
+		width: 100%;
+		text-align: center;
+	}
+	.section-left,
+	.section-right{
+		width: 100%;
+	}
+	.section-left{
+		margin-top: 6em;
+		text-align: center;
+		padding: 2em 0;
+	}
+	.section-right{
+		padding: 0em 0 2em;
+	}
+	.section-title{
+		font-size: 3em;
+		margin-bottom: .2em;
+	}
+	.learn-more{
+		margin: 0 auto;
+	}
+
+
+}
+
+/*Ajuste de 745 para los contenidos del cuerpo de las paginas*/
+/*Se ajustan margenes y proporciones de imagenes*/
+@media (max-width: 745px) {
+
+	section{
+		width:90%;
+	}
+	
+	.cuerpo{
+		width:90%;
+	}
+	.section-left{
+		margin-top: 10em;
+	}
+
+	.tablas{
+		width: auto;
+	}
+	th, td {
+    	padding: 8px;
+    }
+    .copa img {
+ 		max-width: 100%;
+ 		height: auto;
+	}
+	.copader img {
+ 		max-width: 100%;
+ 		height: auto;
+	}  
+}
+/*Ajuste de 480*/
+/*Se austan proporciones de imagenes y cuerpo*/
+/*Se cambia la vista de las tablas para una lectura más fácil en pantallas pequeñas*/
+/*Se muestra el menu de navegacion de forma desplegable*/
+@media (max-width: 480px) {
+	.container{
+		width: 90%;
+	}
+
+	nav{
+		height: 0;
+		overflow: hidden;
+	}
+	/*se marca el checbox que ayuda a mostrar el menu*/
+	input[type="checkbox"]:checked + nav{
+		height: 250px;
+	}
+	nav>a{
+		display: block;
+		border-bottom: solid 1px gray;
+	}
+	/*Se ajustan prporciones*/
+	.cuerpo{
+		width:100%;
+	}
+	section{
+	width: 100%;
+	}
+
+	h1{
+		padding: .5em 0;
+	}
+	/*Se acomodan las barras para que sus divisiones se muestren una sobre otra*/
+	.header-left,
+	.header-right{
+		width: 100%;
+		text-align: center;
+	}
+	.section-left,
+	.section-right{
+		width: 100%;
+		height: 8px;
+	}
+	.section-left{
+		margin-top: 4em;
+		text-align: center;
+		padding: 1em 0;
+	}
+	.section-right{
+		margin-top: 2em;
+		text-align: center;
+		padding: 0 0 3em;
+	}
+	.section-title{
+		text-align: center;
+		font-size: 2em;
+		margin-bottom: 0;
+	}
+	.learn-more{
+		padding: 1.2em 4em;
+		display: table;
+		margin: 0 auto;
+		font-size: 18px; 
+	}
+	.hidden-desktop{
+		display: block;
+	}
+
+	h2, p{
+	padding: .5em 2em .5em 2em;
+}
+
+	th {
+    	display: none; 
+  	}
+
+  	td{
+  		display: block; 
+  	}
+  	/*Se ajusta para que las tablas se muestren de forma vertical*/
+  	td:before{
+  		content: attr(data-th)": ";
+  		font-weight: bold;
+		display: inline-block;
+		width: 9rem;
+		color:black;
+  	}
+
+  	th, td {
+    text-align: left;
+	}
+    tr td:first-child {
+		background: #4CAF50;
+		font-weight: bold;
+		color: #fff; 
+	}
+	.copa{
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+	.copader{
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+}
