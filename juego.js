@@ -9,7 +9,7 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"sounds/sonido.mp3?1464046945849", id:"sonido"}
+		{src:"sounds/sonido.mp3?1464048195288", id:"sonido"}
 	]
 };
 
@@ -1735,7 +1735,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 			if(presentacion.pateadores[0]>presentacion.pateadores[1]){
 							//Si es el ultimo partido lleva a la pantalla de ganador
 							if(presentacion.partido==9){
-									presentacion._goto(6);
+									presentacion._goto(7);
 									this.actual=0;
 							//Si es un partido inteermedio lleva al mapa para entrar en la siguiente ciudad
 							}else{
@@ -1745,9 +1745,10 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 							}
 						//Si el usuario perdio, lo lleva a la pantalla de Game over
 						}else{
-							mute();
+							alert("aqui")
+							//mutecan();
 							this.actual=0;
-							presentacion.gotoAndStop(5);
+							presentacion.gotoAndStop(6);
 						}
 		}
 		//Funcion que se ejecuta cuando hay gol
