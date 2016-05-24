@@ -9,7 +9,7 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"sounds/sonido.mp3?1464048195288", id:"sonido"}
+		{src:"sounds/sonido.mp3?1464048900333", id:"sonido"}
 	]
 };
 
@@ -1745,8 +1745,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 							}
 						//Si el usuario perdio, lo lleva a la pantalla de Game over
 						}else{
-							alert("aqui")
-							//mutecan();
+							mutecan();
 							this.actual=0;
 							presentacion.gotoAndStop(6);
 						}
